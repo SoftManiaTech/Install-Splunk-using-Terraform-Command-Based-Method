@@ -62,7 +62,3 @@ resource "aws_instance" "splunk_server" {
     Name = "Splunk-Server"
   }
 }
-
-output "public_ip" {
-  value = aws_instance.splunk_server.public_ip
-}
